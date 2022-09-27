@@ -4,7 +4,6 @@ import React from 'react';
 import DoSomething from './Components/DoSomething.jsx';
 import LookAtSomething from './Components/LookAtSomething.jsx';
 import ThoughtForm from './Components/ThoughtForm.jsx';
-import GratitudeForm from './Components/GratitudeForm.jsx';
 import ReadSomething from './Components/ReadSomething.jsx';
 import ListenToSomthing from './Components/ListenToSomething';
 
@@ -21,7 +20,6 @@ function App() {
         </div>
         <div className="forms">
           <ThoughtForm />
-          <GratitudeForm />
         </div>
         <div className="right-column">
           <ReadSomething />

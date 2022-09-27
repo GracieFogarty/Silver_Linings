@@ -17,21 +17,65 @@ body {
   margin: 0%;
  }
  .main {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-content: space-between;
-
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap:50px;
  }
 
  h3 {
   padding: 0%;
  }
 
+ textarea {
+  padding: 75px;
+  border-radius: 50%;
+  border-width: 0;
+ }
+
  .do-something {
   background-color: aliceblue;
-  border-color: black;
-  border: solid;
-  padding: 10%;
-  padding-top: 5%;
+  padding: 50px;
+  border-radius: 50%;
+ }
+
+ .read-something {
+  background-color: aliceblue;
+  padding: 50px;
+  border-radius: 50%;
+ }
+
+ .thought-form {
+  background-color: aliceblue;
+  padding: 50px;
+  border-radius: 50%;
+ }
+
+ .gratitude-form {
+  background-color: aliceblue;
+  padding: 50px;
+  border-radius: 50%;
+ }
+
+ .left-column {
+  max-width:500px;
+  flex-grow: 1;
+  flex-shrink: 2;
+  flex-basis: auto;
+  margin: 50px;
+ }
+
+ .forms {
+  flex-grow: 2;
+  flex-shrink: 1;
+  flex-basis: auto;
+  margin-top: 50px;
+ }
+
+ .right-column {
+  max-width:500px;
+  flex-grow: 1;
+  flex-shrink: 5;
+  flex-basis: auto;
+  margin: 50px;
  }
