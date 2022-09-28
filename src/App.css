@@ -45,6 +45,12 @@ body {
   border-radius: 50%;
  }
 
+ .look-at-something {
+  background-color: aliceblue;
+  padding: 50px;
+  border-radius: 50%;
+ }
+
  .thought-form {
   background-color: aliceblue;
   padding: 50px;
@@ -78,4 +84,9 @@ body {
   flex-shrink: 5;
   flex-basis: auto;
   margin: 50px;
+ }
+
+ img {
+  width: 200px;
+  height: auto;
  }
