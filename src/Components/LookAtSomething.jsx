@@ -17,6 +17,7 @@ function LookAtSomething() {
     <div className="look-at-something">
       <h3>Look at something cute!</h3>
       <button type="submit" onClick={(e) => getCat(e)}>Show me something cute!</button>
+      <br></br>
       <img src={photo} alt="cute fox pic"></img>
     </div>
   );

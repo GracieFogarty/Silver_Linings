@@ -61,6 +61,7 @@ function DoSomething() {
       <div className="find-activity-form">
         <form>
           <label> Select an activity type:
+            <br></br>
             <select id="activity-category" onChange={(e) => selectType(e.target.value)}>
               <option>--Please choose an option--</option>
               <option>education</option>
