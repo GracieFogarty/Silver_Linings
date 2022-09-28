@@ -56,7 +56,7 @@ function DoSomething() {
 
 
   return (
-    <div className="do-something">
+    <div className="activity">
       <h3>Find something fun to do!</h3>
       <div className="find-activity-form">
         <form>
@@ -76,7 +76,6 @@ function DoSomething() {
             </select>
           </label>
           <br></br>
-          <br></br>
           <label>Is accessibility a concern?
             <br></br>
             <label> yes
@@ -87,15 +86,12 @@ function DoSomething() {
             </label>
           </label>
           <br></br>
-          <br></br>
           <button type="submit" onClick={(e) => updateActivity(e)}>Find me a new activity!</button>
         </form>
       </div>
-      <br></br>
       <div>
         <h4>Suggested Activity</h4>
         <h5>{activity}</h5>
-        <br></br>
         <span>accessibility score (0 - 1): {accessibility}</span>
         <br></br>
         <span>number of participants: {participants}</span>

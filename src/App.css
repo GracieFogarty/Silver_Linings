@@ -11,10 +11,14 @@ body {
 }
  .App {
   text-align: center;
+  font-family: 'Aref Ruqaa Ink', serif;
  }
  h1{
   padding: 0%;
   margin: 0%;
+  font-family: 'Aref Ruqaa Ink', serif;
+  font-size: 50px;
+  text-shadow: 3px 3px 5px white;
  }
  .main {
   display: grid;
@@ -31,41 +35,61 @@ body {
   border-radius: 50%;
   border-width: 0;
  }
+  .selectActivity {
+  background-color: aliceblue;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 50%;
+  box-shadow: 3px 3px 5px white;
+ }
+ .selectActivity:hover {
+  background-color: aliceblue;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 50%;
+  box-shadow: 3px 3px 5px white;
+  cursor: pointer;
+ }
 
- .do-something {
+ .activity {
   background-color: aliceblue;
   padding: 50px;
   border-radius: 50%;
+  text-align: center;
+  text-justify: center;
+  font-size: x-large;
+  position: fixed;
+  top: 15%;
+  left: 35%;
+  height: 500px;
+  width: 500px;
+  box-shadow: 3px 3px 5px white;
  }
 
- .read-something {
-  background-color: aliceblue;
-  padding: 50px;
-  border-radius: 50%;
+ .doSomething {
+  margin-bottom: 200px;
  }
-
- .look-at-something {
-  background-color: aliceblue;
-  padding: 50px;
-  border-radius: 50%;
+ .listenToSomething {
+  margin-top: 200px;
  }
-
- .listen-to-something {
-  background-color: aliceblue;
-  padding: 50px;
-  border-radius: 50%;
- }
-
  .thought-form {
   background-color: aliceblue;
   padding: 50px;
   border-radius: 50%;
+  font-size:large;
+  box-shadow: 3px 3px 5px white;
  }
 
  .gratitude-form {
   background-color: aliceblue;
   padding: 50px;
   border-radius: 50%;
+  font-size:large;
+  box-shadow: 3px 3px 5px white;
  }
 
  .left-column {

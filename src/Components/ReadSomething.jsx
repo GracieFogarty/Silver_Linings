@@ -12,7 +12,7 @@ function ReadSomething() {
   })
 
   return (
-    <div className="read-something">
+    <div className="activity">
       <h3>Find inspiration!</h3>
       <div>{quote}</div>
       <br></br>

@@ -5,6 +5,7 @@ function ThoughtForm() {
   const [form, setForm] = useState('thoughts');
   const [text, setText] = useState('');
   const [oldThought, setOldThought] = useState('');
+  const [oldDate, setOldDate] = useState('');
 
   function handleThoughts (e) {
     e.preventDefault();
@@ -14,9 +15,10 @@ function ThoughtForm() {
 
   function getPreviousThought (e) {
     e.preventDefault();
-    axios.get('/gratitude', Date.now())
+    axios.get('/gratitude')
     .then((res) => {
       setOldThought(res.data.entry);
+      setOldDate(res.data.date);
     })
     .catch((err) => {
       console.log(err);
@@ -27,7 +29,7 @@ function ThoughtForm() {
     e.preventDefault();
     axios.post('/gratitude', {
       entry: text,
-      date: Date.now()
+      date: new Date(),
     })
     .then((res) => {
       console.log(res)
@@ -54,6 +56,7 @@ function ThoughtForm() {
           <label> See what you were grateful for last time &#10132;
             <button type="submit" onClick={(e) => getPreviousThought(e)}>Show me!</button>
             <span>{oldThought}</span>
+            <span>{oldDate}</span>
           </label>
         </form>
         <form>

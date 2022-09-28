@@ -14,7 +14,7 @@ function LookAtSomething() {
   }
 
   return (
-    <div className="look-at-something">
+    <div className="activity">
       <h3>Look at something cute!</h3>
       <button type="submit" onClick={(e) => getCat(e)}>Show me something cute!</button>
       <br></br>
