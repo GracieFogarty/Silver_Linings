@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 
 function LookAtSomething() {
-  const [photo, setPhoto] = useState('');
+  const [photo, setPhoto] = useState('https://wallpaperaccess.com/full/82712.jpg');
 
   function getCat(e) {
     e.preventDefault();

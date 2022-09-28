@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <div>
-        <h1>Feeling Meh?</h1>
+        <h1>Silver Linings</h1>
       </div>
       <div className="main">
         <div className="left-column">

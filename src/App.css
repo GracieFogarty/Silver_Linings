@@ -50,6 +50,12 @@ body {
   border-radius: 50%;
  }
 
+ .listen-to-something {
+  background-color: aliceblue;
+  padding: 50px;
+  border-radius: 50%;
+ }
+
  .thought-form {
   background-color: aliceblue;
   padding: 50px;
