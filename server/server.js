@@ -6,7 +6,7 @@ app.use(express.static(path.join(__dirname, 'build')));
 app.use(express.json());
 
 app.get('/gratitude', (req, res) => {
-  db.getEntryByDate(req.query, (err, result) => {
+  db.getEntryByDate((err, result) => {
     if(err) {
       console.log(err)
     } else {

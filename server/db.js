@@ -22,8 +22,8 @@ exports.saveEntry = function (data, callback) {
   })
 };
 
-exports.getEntryByDate = function (data, callback) {
-  Entries.find({}, (err, docs) => {
+exports.getEntryByDate = function (callback) {
+  Entries.findOne().sort({ field: -"_id" }).limit(1).exec((err, docs) => {
     callback(err, docs);
   })
 }
