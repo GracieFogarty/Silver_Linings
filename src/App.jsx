@@ -16,6 +16,7 @@ function App() {
       <div className="main">
         <div className="left-column">
           <DoSomething />
+          <br></br>
           <LookAtSomething />
         </div>
         <div className="forms">
@@ -23,6 +24,7 @@ function App() {
         </div>
         <div className="right-column">
           <ReadSomething />
+          <br></br>
           <ListenToSomthing />
         </div>
 
