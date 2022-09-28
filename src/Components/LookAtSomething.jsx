@@ -16,8 +16,7 @@ function LookAtSomething() {
   return (
     <div className="look-at-something">
       <h3>Look at something cute!</h3>
-      <br></br>
-      <button type="submit" onClick={(e) => getCat(e)}>Get something cute!</button>
+      <button type="submit" onClick={(e) => getCat(e)}>Show me something cute!</button>
       <img src={photo} alt="cute fox pic"></img>
     </div>
   );

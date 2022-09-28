@@ -39,7 +39,7 @@ function DoSomething() {
           setActivity(response.data.activity);
           setAccessibility(response.data.accessibility);
           setParticipants(response.data.participants);
-          setPrice(response.data.participants);
+          setPrice(response.data.price);
         }
       })
       .catch();
@@ -49,7 +49,7 @@ function DoSomething() {
         setActivity(response.data.activity);
         setAccessibility(response.data.accessibility);
         setParticipants(response.data.participants);
-        setPrice(response.data.participants);
+        setPrice(response.data.price);
       })
     }
   }
