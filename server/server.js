@@ -5,7 +5,7 @@ const db = require('./db.js');
 app.use(express.static(path.join(__dirname, 'build')));
 app.use(express.json());
 
-app.get('/gratitude', function (req, res) {
+app.get('/gratitude', (req, res) => {
   db.getEntryByDate(req.query, (err, result) => {
     if(err) {
       console.log(err)
@@ -15,8 +15,8 @@ app.get('/gratitude', function (req, res) {
   })
 });
 
-app.post('/gratitude', function (req, res) {
-  db.saveEntry(req.query, (err) => {
+app.post('/gratitude', (req, res) => {
+  db.saveEntry(req.body, (err) => {
     if(err) {
       console.log(err);
     } else {

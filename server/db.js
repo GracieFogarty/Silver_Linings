@@ -5,7 +5,7 @@ mongoose.connect('mongodb://localhost/gratitudeJournal');
 
 const journalSchema = new Schema({
   entry: String,
-  date: Date
+  date: Number
 });
 
 const Entries = mongoose.model('gratitudeJournal', journalSchema);
