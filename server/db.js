@@ -23,7 +23,7 @@ exports.saveEntry = function (data, callback) {
 };
 
 exports.getEntryByDate = function (callback) {
-  Entries.findOne().sort({ field: -"_id" }).limit(1).exec((err, docs) => {
+  Entries.findOne().sort({ _id: -1 }).limit(1).exec((err, docs) => {
     callback(err, docs);
   })
 }

@@ -54,9 +54,12 @@ function ThoughtForm() {
         <h3>What is something you are grateful for?</h3>
         <form>
           <label> See what you were grateful for last time &#10132;
-            <button type="submit" onClick={(e) => getPreviousThought(e)}>Show me!</button>
-            <span>{oldThought}</span>
+            <br></br>
+            <span><b>{oldThought}</b></span>
+            <br></br>
             <span>{oldDate}</span>
+            <br></br>
+            <button type="submit" onClick={(e) => getPreviousThought(e)}>Show me!</button>
           </label>
         </form>
         <form>

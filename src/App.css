@@ -5,7 +5,6 @@ body {
 
 #root {
   height: 100%;
-  width: 100vw;
   background-image: url(https://st2.depositphotos.com/1561359/5983/v/450/depositphotos_59833605-stock-illustration-blue-sky-with-clouds-background.jpg);
   background-size: 100%;
 }
@@ -71,25 +70,27 @@ body {
  }
 
  .doSomething {
-  margin-bottom: 200px;
+  margin-bottom: 150px;
  }
  .listenToSomething {
-  margin-top: 200px;
+  margin-top: 130px;
  }
  .thought-form {
   background-color: aliceblue;
-  padding: 50px;
+  padding: 70px;
   border-radius: 50%;
   font-size:large;
   box-shadow: 3px 3px 5px white;
+  margin-top: 0px;
  }
 
  .gratitude-form {
   background-color: aliceblue;
-  padding: 50px;
+  padding: 70px;
   border-radius: 50%;
   font-size:large;
   box-shadow: 3px 3px 5px white;
+  margin-top: 0px;
  }
 
  .left-column {
@@ -97,14 +98,18 @@ body {
   flex-grow: 1;
   flex-shrink: 2;
   flex-basis: auto;
-  margin: 50px;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-top: 0px;
+  margin-bottom: 0px;
  }
 
  .forms {
   flex-grow: 2;
   flex-shrink: 1;
   flex-basis: auto;
-  margin-top: 150px;
+  margin-top: 0px;
+  padding: 0px;
  }
 
  .right-column {
@@ -113,9 +118,13 @@ body {
   flex-shrink: 5;
   flex-basis: auto;
   margin: 50px;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-top: 0px;
+  margin-bottom: 0px;
  }
 
  img {
-  width: 200px;
-  height: auto;
+  width: auto;
+  height: 300px;
  }
