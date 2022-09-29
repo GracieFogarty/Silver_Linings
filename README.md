@@ -14,11 +14,11 @@ The main component of this app is the interactive thought journal. Type your neg
 
 Find something to do!
 -----------------------
-This component was designed to allow individuals to find ideas for productive activities to do when they are down. It can be hard to come up with ideas for things to do when suffering from depression, so this takes the effort out of that process. Individuals can select an activity type, and whether they need to highly accessible activity, and this component will generate ideas for things to do.
+This component was designed to allow individuals to find ideas for productive activities to do when they are down. It can be hard to come up with ideas for things to do when suffering from depression, so this takes the effort out of that process. Individuals can select an activity type, and whether they need a highly accessible activity, and this component will generate ideas for things to do.
 
 Read something inspirational!
 -------------------------------
-This component generates a new inspiring quote very hour. Quotes can be a great source of inspiration and motivation.
+This component generates a new inspiring quote every hour. Quotes can be a great source of inspiration and motivation.
 
 Look at something cute!
 ---------------------------
@@ -26,9 +26,9 @@ This component generates cute photos of foxes on demand to flood the brain with 
 
 Find peace and calm!
 -----------------------
-This component provides a peacful video and soundscape perfect for meditation and relaxation.
+This component provides a peaceful video and soundscape perfect for meditation and relaxation.
 
-Build With:
+Built With:
 --------------
 * [React](https://reactjs.org/)
 * [Node](https://nodejs.dev/en/)
